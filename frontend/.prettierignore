@@ -1,0 +1,8 @@
+.yarn
+dist
+coverage
+*.hbs
+templates
+api-report.md
+.vscode
+dist-types

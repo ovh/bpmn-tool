@@ -1,0 +1,26 @@
+.fileExplorer {
+  th {
+    vertical-align: middle !important;
+  }
+
+  .ellipsis {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    a {
+      display: block;
+      white-space: nowrap;
+    }
+  }
+
+  td a.resource-name-link {
+    span.resource-name {
+      margin-left: 3px;
+    }
+
+    &:hover span.resource-name {
+      text-decoration: underline;
+    }
+  }
+}

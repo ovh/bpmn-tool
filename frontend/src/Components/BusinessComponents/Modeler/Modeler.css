@@ -1,0 +1,75 @@
+* {
+  font-family: 'Public Sans', serif;
+}
+
+#diagramContainer {
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+}
+
+#diagramProperties {
+  top: 20px;
+  right: 20px;
+  width: 20vw;
+  height: auto;
+  z-index: 999;
+  position: absolute;
+  background: hsl(225, 10%, 97%);
+}
+
+.bio-properties-panel-header {
+  background-color: white;
+}
+
+.bio-properties-panel-group {
+  padding: 8px;
+}
+
+.djs-popup-backdrop {
+  z-index: 501;
+}
+
+.djs-popup {
+  border-radius: 6px;
+}
+
+/* Mini Map */
+
+.djs-minimap {
+  top: auto;
+  right: auto;
+  left: 10px;
+  bottom: 10px;
+  background-color: white;
+  border-radius: 6px;
+  border-color: #cdd7e1;
+  font-weight: 600;
+  color: #32383e !important;
+  font-size: 0.875rem;
+  padding: 4px;
+}
+
+.djs-palette {
+  background-color: white;
+  border-radius: 6px;
+  border-color: #cdd7e1;
+  min-width: 94px;
+}
+
+.entry {
+  color: #32383e !important;
+}
+
+.entry:hover {
+  color: #185ea5 !important;
+}
+
+.bio-properties-panel {
+  border: 1px solid #cdd7e1;
+  border-radius: 6px;
+}
+
+.bjsl-button-success {
+  background-color: #1f7a1f;
+}

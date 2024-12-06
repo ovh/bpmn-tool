@@ -1,0 +1,72 @@
+svg.diff-removed {
+  background: #e56283;
+}
+
+.diff-removed.djs-element:not(.djs-connection) > .djs-visual > :nth-child(1) {
+  fill: #e56283 /* light-red */ !important;
+}
+
+.diff-removed.djs-connection > .djs-visual > :nth-child(1) {
+  stroke: #bb163f /* red */ !important;
+}
+
+.marker.marker-removed {
+  background: #bb163f /* red */;
+}
+
+svg.diff-added {
+  background: #90dd5f;
+}
+
+.diff-added.djs-element:not(.djs-connection) > .djs-visual > :nth-child(1) {
+  fill: #90dd5f /* light-green */ !important;
+}
+
+.diff-added.djs-connection > .djs-visual > :nth-child(1) {
+  stroke: #54b415 /* green */ !important;
+}
+
+.marker.marker-added {
+  background: #54b415 /* green */;
+}
+
+svg.diff-layout-changed {
+  background: #4d79a3;
+}
+
+.diff-layout-changed.djs-element:not(.djs-connection)
+  > .djs-visual
+  > :nth-child(1) {
+  fill: #4d79a3 /* light-blue */ !important;
+}
+
+.diff-layout-changed.djs-connection > .djs-visual > :nth-child(1) {
+  stroke: #185085 /* blue */ !important;
+}
+
+.marker.marker-layout-changed {
+  background: #185085 /* blue */;
+}
+
+svg.diff-changed {
+  background: #fbc16c;
+}
+
+.diff-changed.djs-element:not(.djs-connection) > .djs-visual > :nth-child(1) {
+  fill: #fbc16c /* light-yellow */ !important;
+}
+
+.diff-changed.djs-connection > .djs-visual > :nth-child(1) {
+  stroke: #cd8318 /* yellow */ !important;
+}
+
+.marker.marker-changed {
+  background: #cd8318 /* yellow */;
+}
+
+.marker {
+  padding: 0 4px;
+  border-radius: 8px;
+  font-size: x-large;
+  color: white;
+}
