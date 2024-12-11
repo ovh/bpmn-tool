@@ -42,7 +42,7 @@ Then follow [backend README](./backend/README.md) and [frontend README](./fronte
 
 ## Related links
 
-- Contribute: https://github.com/ovh/bpmn-tool/blob/master/CONTRIBUTING.md
+- Contribute: https://github.com/ovh/bpmn-tool/blob/main/CONTRIBUTING.md
 - Report bugs: https://github.com/ovh/bpmn-tool/issues
 
 ## Screenshots
