@@ -33,7 +33,7 @@
     "bpmn-js-embedded-comments": "^0.7.0",
     "bpmn-js-properties-panel": "^3.0.0",
     "camunda-bpmn-js": "^3.0.0",
-    "canvg": "^4.0.2",
+    "canvg": "^4.0.3",
     "date-fns": "^2.30.0",
     "react": "^18.3.1",
     "react-hook-form": "^7.53.0",
